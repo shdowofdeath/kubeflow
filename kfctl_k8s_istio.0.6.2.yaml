@@ -9,9 +9,9 @@ metadata:
 spec:
   repos:
     - name: manifests
-      uri: https://github.com/shdowofdeath/kubeflow/blob/master/manifests-0fa9c0126f62392d1c27f31711e513b22ef28cbc.tar.gz
+      uri: https://github.com/shdowofdeath/kubeflow/raw/master/manifests-0fa9c0126f62392d1c27f31711e513b22ef28cbc.tar.gz
     - name: kubeflow
-      uri: https://github.com/shdowofdeath/kubeflow/blob/master/kubeflow-0dbd2550372c003ba69069aeee283bd59fb1341f.tar.gz
+      uri: https://github.com/shdowofdeath/kubeflow/raw/master/kubeflow-0dbd2550372c003ba69069aeee283bd59fb1341f.tar.gz
   applications:
     # Istio install. If not needed, comment out istio-crds and istio-install.
     - kustomizeConfig:
